@@ -169,7 +169,7 @@ render(){
 
   return (
     <div className="App">
-        <div><h1>BlueTooth Device Demo</h1></div>
+        <div><h1>BlueTooth Device</h1></div>
         <div>
           {/* <input style={{margin:10}} type='button' value='Discover Device' onClick={this.onDiscover}></input> */}
           <input className='button-css' style={{margin:10}} type='button' value='Get Token' onClick={this.OnFindToken}></input>
